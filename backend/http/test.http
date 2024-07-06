@@ -1,0 +1,31 @@
+
+POST http://localhost:8080/user/login
+
+Content-Type: application/json
+
+{
+    "username": "maxi",
+    "passwort": "maxi455$"
+}
+
+###
+
+POST http://localhost:8080/user/register
+
+Content-Type: application/json
+
+{
+    "username": "maxi",
+    "passwort": "maxi455$"
+}
+
+###
+
+GET http://localhost:8080/user/test
+
+Content-Type: application/json
+
+{
+    "username": "maxi",
+    "passwort": "maxi455$"
+}
