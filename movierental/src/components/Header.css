@@ -1,0 +1,107 @@
+#header {
+    background-color: rgb(24, 24, 24);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.userIcon {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: wheat;
+    margin-left: auto;
+    cursor: pointer;
+    order: 4;
+}
+
+.userIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#logo {
+    font-size: 48px;
+    color: silver;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px;
+    margin-right: 2em;
+    text-decoration: none;
+}
+
+.register_btn, .login_btn, .logout_btn {
+    background-color: blue;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid silver;
+    font-weight: 600;
+}
+
+
+.register_btn:active, .login_btn:active {
+    background-color: darkblue;
+}
+
+.offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    
+}
+
+.offcanvas-link {
+    margin: 30px;
+    width: 300px;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin: 30px;
+    border-radius: 5px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid silver;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.searchBar input {
+    padding: 8px;
+}
+
+.searchBtn, .resetSearchBtn {
+    padding: 1px 5px;
+    background-color: darkgoldenrod;
+    color: blanchedalmond;
+}
+
+.intButtons {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.intButtons input, .intButtons Button {
+    margin: 20px 0;
+}

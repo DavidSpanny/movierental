@@ -1,0 +1,33 @@
+.admin_table {
+    color: white;
+    font-size: 36px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 30px;
+}
+
+.admin_table td input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 20px 2em;
+}
+
+.admin_table img {
+    max-width: 100px;
+    height: auto;
+}
+
+.pag_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.pag_buttons button {
+    margin: 20px 20px;
+}
+
+.addMoviesBtn {
+    display: block;
+    margin: 0 auto 30px auto;
+}

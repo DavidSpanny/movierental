@@ -1,0 +1,71 @@
+.displayDetails {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 20px;
+    font-size: 3em;
+}
+
+.displayDetails img + p {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.displayDetails img {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.displayDetails > div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.overview {
+    font-size: 30px;
+}
+
+.rent_btn {
+        background-color: darkgreen;
+        color: whitesmoke;
+        padding: 5px 10px;
+        margin: 10px auto;
+        border-radius: 5px;
+        height: 50px;
+        width: 200px;
+        text-decoration: none;
+        font-size: 24px;
+        text-align: center;
+        border: 2px solid silver;
+        font-weight: 400;
+        cursor: pointer;
+}
+
+.rent_btn:active {
+    background-color: green;
+}
+
+.loading-spinner, .spinner-border {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+}
+
+.res_form {
+    margin: 50px auto;
+}
+
+.res_form label, #res_date, button {
+    padding: 10px;
+    margin: 0 30px;
+    font-size: 30px;
+}
+
+.favBtn {
+    width: 200px;
+    font-size: 16px;
+    margin: 20px auto;
+}

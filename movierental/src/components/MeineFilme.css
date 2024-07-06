@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.meineFilmeLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.meineFilmeLink:hover {
+    background-color: cyan;
+}
+
+.myMovieTable {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.myMovieTable th, .myMovieTable td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.myMovieTable th {
+    background-color: gray;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.myMovieTable tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
